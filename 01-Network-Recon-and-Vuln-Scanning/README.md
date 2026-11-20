@@ -22,7 +22,7 @@ Conduct active network reconnaissance, OS fingerprinting, network sniffer detect
  Target: Windows Server 2019 (`10.10.1.19`)
  Command Used: 
   ```bash
-  nmap sV script=snifferdetect 10.10.1.19
+  nmap sV script=sniffer-detect 10.10.1.19
   ```
  Takeaway: Used Nmap NSE scripts to audit network interfaces for unauthorized packet sniffing drivers (Npcap/WinPcap).
 
